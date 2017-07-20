@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TitleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Doctor Who: The Nameless City" />
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/AuthorText"
+            android:gravity="right"
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Michael Scott" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="Eleven Doctors, eleven months, eleven stories: a year-long celebration of Doctor Who! The most exciting names in children's fiction each create their own unique adventure about the time-travelling Time Lord. When Jamie McCrimmon brings the Second Doctor a mysterious book, little does he realise the danger contained within its pages. The book transports the TARDIS to a terrifying glass city on a distant world, where the Archons are intent on getting revenge on the Time Lord for an ancient grudge." />
+
+</LinearLayout>
